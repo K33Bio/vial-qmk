@@ -15,7 +15,7 @@
 // Triple tap RAISE and LOWER key to access _CONF layer
 #define TRIPPLE_TAP_CONF_ENABLE
 // Double tap RAISE or LOWER to enable _RAISE or _LOWER layer
-#define DOUBLE_TAP_LAYER_ENABLE
+//#define DOUBLE_TAP_LAYER_ENABLE
 
 // Mouse keys settings
 #define MOUSEKEY_INTERVAL 16
