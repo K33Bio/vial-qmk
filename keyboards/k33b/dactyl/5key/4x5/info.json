@@ -47,8 +47,11 @@
 		"enabled": true,
 		"bootmagic": { "matrix": [5,0] },
 		"soft_serial_pin": "GP28",
-		"transport": { "protocol": "serial" },
-		"usb_detect": { "enabled": true }
+		"transport": {
+			"protocol": "serial", 
+			"watchdog": true
+		},
+		"usb_detect": { "enabled": false }
 	},
 
 	"diode_direction": "ROW2COL",

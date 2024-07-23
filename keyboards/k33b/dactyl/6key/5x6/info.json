@@ -31,7 +31,7 @@
 	},
 
 	"caps_word": {
-		"enabled": true,
+		"enabled": false,
 		"both_shifts_turns_on": true,
 		"double_tap_shift_turns_on": true,
 		"invert_on_shift": true,
@@ -47,8 +47,11 @@
 		"enabled": true,
 		"bootmagic": { "matrix": [6,0] },
 		"soft_serial_pin": "GP28",
-		"transport": { "protocol": "serial" },
-		"usb_detect": { "enabled": true }
+		"transport": {
+			"protocol": "serial",
+			"watchdog": true
+		},
+		"usb_detect": { "enabled": false }
 	},
 
 	"diode_direction": "ROW2COL",
